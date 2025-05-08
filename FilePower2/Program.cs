@@ -15,23 +15,16 @@ namespace FilePower1
             }
 
             string fileName = args[0];
-            Queue<string> queue = new Queue<string>();
+
+            using StreamWriter sw = new StreamWriter(fileName);
 
             while (true)
             {
                 string input = Console.ReadLine();
                 if (string.IsNullOrEmpty(input))
                     break;
-                queue.Enqueue(input);
-            }
 
-            using (StreamWriter writer = new StreamWriter(fileName))
-            {
-                while (queue.Count > 0)
-                {
-                    string line = queue.Dequeue();
-                    writer.WriteLine(line);
-                }
+                sw.WriteLine(input);
             }
         }
     }
