@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntCollections", "IntCollec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualPlayer", "EqualPlayer\EqualPlayer.csproj", "{94893EF1-6A54-49CD-AF73-DB93F4660551}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePower1", "FilePower1\FilePower1.csproj", "{61592351-1838-4CB1-82A4-6432AF2F329E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{94893EF1-6A54-49CD-AF73-DB93F4660551}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94893EF1-6A54-49CD-AF73-DB93F4660551}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94893EF1-6A54-49CD-AF73-DB93F4660551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61592351-1838-4CB1-82A4-6432AF2F329E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61592351-1838-4CB1-82A4-6432AF2F329E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61592351-1838-4CB1-82A4-6432AF2F329E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61592351-1838-4CB1-82A4-6432AF2F329E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
